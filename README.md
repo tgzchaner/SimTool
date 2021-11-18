@@ -1,2 +1,2 @@
 # simtool
-this is simple tool,it base on java.
+This is simple tool,it base on java.
