@@ -3,12 +3,11 @@ package com.hmlhao.simtool;
 
 
 /**
- * @author hmlhao
- * @version 1.0
- * @date 2021/11/18 22:33
+ * @Author hmlhao
+ * @Date 2021/11/18 22:33
+ * @Version 1.0
  */
 public class IDUtils {
-
 
     public static boolean checkLen(String id){
         boolean flag;
@@ -51,9 +50,5 @@ public class IDUtils {
             flag = false;
         }
         return flag;
-    }
-
-    public static void main(String[] args) {
-
     }
 }
