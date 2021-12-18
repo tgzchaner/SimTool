@@ -20,3 +20,10 @@
 |        public static byte [] readChars(String path)        | 根据文件地址取出字符数组 |
 | public static byte[] writeBytes(String path,byte [] bytes) | 将字节数组存入文件地址中 |
 | public static byte[] writeChars(String path,char [] chars) | 将字符数组存入文件地址中 |
+
+### StrUtils 字符串处理工具
+
+|                            方法名                        |     说明      |
+|:-------------------------------------------------------:|:-----------:|
+|        public static boolean isEmpty(String str)        |  判断字符串是否为空  |
+

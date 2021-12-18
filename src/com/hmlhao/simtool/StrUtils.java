@@ -13,4 +13,12 @@ public class StrUtils {
     public static byte [] toByteArray(String str){
         return str.getBytes();
     }
+    public static boolean isEmpty(String str){
+        if (str.equals("")||str == null){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
 }
