@@ -58,7 +58,8 @@ public class FileUtils {
         return result;
     }
 
-    /*
+    /**
+     * 将Byte数组写入文件路径
      * param1 path:输出文件路径
      * param2 bytes:输出文件字节数组
      */

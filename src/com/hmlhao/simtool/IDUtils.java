@@ -51,4 +51,15 @@ public class IDUtils {
         }
         return flag;
     }
+
+    public static boolean checkCheckCode(String id){
+        char [] idList = id.toCharArray();
+        boolean flag;
+        if(('0'<=idList[17] && '9'>=idList[17]) || 'X' == idList[17] || 'x' == idList[17]){
+            flag = true;
+        }else{
+            flag = false;
+        }
+        return flag;
+    }
 }
